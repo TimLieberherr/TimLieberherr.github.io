@@ -1,0 +1,364 @@
+@charset "UTF-8";
+
+/* Navigation */
+
+.navi {
+
+	top: 0;
+	z-index: 60;
+	background-color: #ffffff;
+	padding-left: 0em;
+	margin-left: 0em;
+}
+
+header nav ul {
+	text-align: center;
+	margin-top: 1em;
+	margin-left: -2em;
+	margin-bottom: 1em;
+	list-style-type: none;
+	overflow: hidden;
+}
+
+header nav ul li {
+	margin-top: 0.4em;
+	margin-bottom: 0.4em;
+}
+
+header nav li a {
+	display: inline;
+	text-decoration: none;
+	text-align: center;
+	line-height: 50px;
+	padding-top: 0.4em;
+	padding-left: 0em;
+	padding-right: 0.4em;
+	color: #1a1a1a;
+}
+
+header li:hover {
+	background-color: #a99058;
+}
+
+/* ------------------ Home -------------------------------- */
+
+body {
+	margin: auto;
+	font-size: 1em;
+	line-height: 1.5em;
+	font-family: 'Lato', sans-serif;
+	color: #000000;
+	background-color: #ffffff;
+}
+
+.parallax {
+	width: 100%;
+    background-image: url("Pictures/Bewerbungsbild-Retouschiert.jpg");
+	z-index: 30;
+  	display: block;
+    height: 700PX; 
+    /* parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax h3 {
+	text-align: center;
+	width: 100%;
+	z-index: 40;	
+	font-size: 3.88em;
+	font-family:'Lato', sans-serif;
+	color: #FFFFFF;
+	position: absolute;
+	top: 6em;
+	font-weight: 800;
+
+}
+.parallax h4 {
+	text-align: center;
+	width: 100%;
+	z-index: 40;	
+	font-size: 1.4em;
+	font-family:'Lato', sans-serif;
+	color: #2E64FE;
+	font-weight: 70;
+	position: absolute;
+	top: 31.3em;
+	padding-left: 0.25em;
+	font-weight: 600;
+}
+
+
+/* ------------------ Über mich -------------------------------- */
+
+
+#box2 {
+	width: 80%;
+	z-index: 40;	
+	font-size: 1em;
+	font-family: 'Lato', sans-serif;
+	color: black;
+	font-weight: 70;
+	padding-left: 2.5em;
+	padding-right: 5em;
+	padding-top: 0;
+
+}
+
+/* ------------------ Bilder -------------------------------- */
+
+h3 {
+	font-size: 1.1em;
+	font-family: 'Lato', sans-serif;
+	color: black;
+	padding-top: 4em;
+	font-weight: 800;
+
+}
+
+
+
+.Box {
+
+	width: 100%;
+	float: left;
+	background-color: white;
+}
+
+/* ------------------ Footer -------------------------------- */
+
+.icon {
+	max-width: 34px;
+	min-width: 34px;
+	/* top: 0em;
+	left: 0em; */
+}
+
+footer {
+	padding: 0.3em;
+	padding-left: 0em;
+	margin-left: 0em;
+	/* margin-top: 0em;
+	padding-top: 0em; */
+}
+
+footer nav ul {
+	text-align: center;
+	margin-top: 2em;
+	margin-bottom: 0;
+	/* 	display: inline; */
+	/* 	justify-content: space-between; */
+	list-style-type: none;
+	overflow: hidden;
+	padding-right: 2.5em;
+}
+
+footer nav ul li {
+	margin-top: 0.6em;
+	margin-bottom: 0.6em;
+}
+
+footer nav li a {
+	display: inline;
+	text-decoration: none;
+	text-align: center;
+	line-height: 50px;
+	padding-top: 0.4em;
+	padding-left: 0em;
+	padding-right: 0.4em;
+	color: #1a1a1a;
+}
+
+footer li:hover {
+	background-color: #a99058;
+}
+
+/* ------------------ Responsive -------------------------------- */
+
+@media screen and (min-width: 35.625em ) {
+	
+	/* 570px */
+	
+ .parallax {
+        background-attachment: scroll;
+    }
+  }
+	
+
+@media screen and (min-width: 48em /* 780px */) {
+	
+.navi { width: 100%;
+	position: fixed;
+	background-color: #ffffff;
+	
+	}
+
+header ul li {
+		border-bottom:none;
+	}			
+
+header nav li a{	 
+	display:inline;
+	float:left;
+	padding-left: 6em;
+	padding-right: 6em; 
+	text-align: center;
+	}	
+
+.parallax h3 {
+	font-size: 5.4em;
+	top: 3em;
+	font-weight: 800;
+
+}
+.parallax h4 {
+	font-size: 1.95em;
+	font-weight: 70;
+	top: 22.9em;
+	padding-left: 0.25em;
+	font-weight: 600;
+}
+ 
+ .parallax {
+	top: 4em;
+	height: 900PX; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.Box {
+	width: 49%;
+	float: left;
+}
+
+footer nav li a{	 
+	display:inline;
+	float:left;
+	padding-left: 3em;
+	padding-right: 3em;
+	}	
+
+
+}
+ 
+@media screen and (min-width: 64em /* 1024px */) {
+
+ .parallax {
+	top: 4em;
+	height: 1000PX; 
+}	
+.parallax h3 {
+	font-size: 7.1em;
+	top: 1em;
+	font-weight: 800;
+
+}
+.parallax h4 {
+	font-size: 2.69em;
+	font-weight: 70;
+	top: 16.5em;
+	padding-left: 0.25em;
+	font-weight: 400;
+}
+
+.navi { 
+	width: 100%;
+	position: fixed;
+	background-color: #ffffff;
+	
+	}
+
+header ul li {
+		border-bottom:none;
+	}			
+
+header nav li a{	 
+	display:inline;
+	float:left;
+	padding-left: 12em;
+	padding-right: 4em; 
+	text-align: center;
+	}
+		
+.Box {
+
+	width: 32%;
+	float: left;
+}
+		
+footer nav li a{	 
+	display:inline;
+	float:left;
+	padding-left: 5.5em;
+	padding-right: 4em;
+	}		
+	
+	footer nav {	 
+	width: 100%;
+	float:left;
+
+
+	}	
+
+	
+}
+
+@media screen and (min-width: 80em /* 1024px */) {
+	
+	.parallax {
+	top: 4em;
+	height: 1000PX; 
+}	
+.parallax h3 {
+	font-size: 9.5em;
+	top: 0.2em;
+	font-weight: 500;
+
+}
+.parallax h4 {
+	font-size: 3.45em;
+	font-weight: 70;
+	top: 14.8em;
+	padding-left: 0.25em;
+}
+
+.navi { width: 100%;
+	position: fixed;
+	background-color: #ffffff;
+	
+	}
+
+header ul li {
+		border-bottom:none;
+	}			
+
+header nav li a{	 
+	display:inline;
+	float:left;
+	padding-left: 14.5em;
+	padding-right: 7em; 
+	text-align: center;
+	
+	}
+	
+	
+		
+.Box {
+	width: 25%;
+	float: left;
+}
+		
+footer nav li a{	 
+	display:inline;
+	float:left;
+	padding-left: 7.5em;
+	padding-right: 5em;
+	}		
+	
+
+	
+}
